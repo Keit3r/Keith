@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.darkmode-input:checked + div{
+    background-color: #6A5AF9;
+}
+
+.darkmode-input:checked + div + .darkmode-spinner{
+    transform: translateX(60px);
+}
+
+@media(min-width: 350px) {
+    #min {
+        padding-left: 25px;
+    }
+}
